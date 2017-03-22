@@ -1,0 +1,56 @@
+/*默认样式清除*/
+body,h1,h2,h3,h4,h5,h6,p,ul,li,dl,dd,dt,ol,input,dl,dt,dd,a{margin:0;padding:0;}
+body{font-family:arial,"微软雅黑","宋体";}
+ol,ul,li{list-style:none;}
+a{text-decoration:none;}
+i{font-style:normal;font-family:consolas;}
+img,input{border:none;display: block}
+/*清除浮动*/
+.clearfix:after{content: '';visibility: hidden;height: 0;display: block;clear: both;}
+
+/*公共头部开始*/
+.public-header{width: 1000px;height: 99px;margin: 0 auto;position: relative;}
+.public-header .header-logo{float:left;width: 204px;height: 55px;background: url("../image/logo.png") no-repeat;margin-top: 22px;}
+.public-header .header-language{float: right;padding-right: 11px;padding-top: 43px;}
+.public-header .header-language span{font-size: 14px;color: #b53852;padding-right: 29px;}
+.public-header .header-language a{font-size: 14px;color: #b53852;}
+.public-header .header-language i{color: #b53852;}
+/*公共导航栏*/
+.public-nav{height: 73px;background-color: #b53852;}
+.public-nav-list{width: 1000px;height: 73px;margin: 0 auto;}
+.public-nav-list ul{margin-left: 9px;}
+.public-nav-list li{float: left;margin-right: 59px;line-height: 73px;}
+.public-nav-list li a{display: block;color: #fff;font-size: 14px;}
+.public-nav-list ul li i{display:inline-block;width:10px;height:5px;overflow:hidden;font-size:12px;line-height:0;padding-left:7px;}
+/*公共底部*/
+.public-footer{height: 453px;background-color: #b53852;}
+.public-footer .footer-inner{width: 1000px;margin: 0 auto;padding: 42px 0 27px 0;}
+.public-footer .footer-inner dl{float:left;width:188px;overflow:hidden;}
+.public-footer .footer-inner .contact{width:60px; }
+.public-footer .footer-inner dt{font-size: 14px;color: #fff;font-weight: bold;line-height: 30px;}
+.public-footer .footer-inner dd a{font-size: 12px;color: #f7e1e5;line-height: 28px;}
+.public-footer .footer-inner .brand a{display: inline-block;width: 54px;}
+.public-footer .join{width: 1000px;height: 45px;margin: 0 auto;text-align: center;font-size: 12px;color: #f7e1e5;line-height: 45px;border-top: 1px solid #bc3d57;}
+.public-footer .footer-inner dd a:hover{color: #fff;}
+
+/*内容左侧区域*/
+.banner{width: 1000px;margin: 0 auto;}
+.bn-left{float: left;padding-top: 39px;padding-bottom: 45px;width: 254px;border-right: 1px solid #dadada;}
+.bn-left dt,.bn-left dd{padding-left: 24px;height: 45px;line-height: 45px;border-bottom: 1px solid #dadada;font-size: 14px;}
+.bn-left a{color: #b53852;display: block;height: 45px;}
+.bn-left dt{position: relative;color:#b53852; }
+.bn-left dt i{position: absolute;left: 0;top:21px;display:inline-block;width:10px;height:5px;overflow:hidden;font-size:12px;line-height:0;padding-left:7px;}
+.bn-left .active{background: #f0f0f0;}
+.bn-left .active a{color: #585858;}
+.bn-left dd:hover{background: #f0f0f0;}
+.bn-left dd:hover a{color: #585858;}
+
+/*内容右侧头部区域*/
+.bn-right{float: left;width: 705px;padding-left: 30px;padding-right:10px; }
+.bn-right span{font-size: 12px;color: #999}
+.bn-right i{font-size: 12px;color: #999}
+.bn-right .bread{padding-top: 32px;}
+.bn-right h3{padding-top: 25px;font-size: 35px;font-weight: normal;color: #b53852;}
+
+
+
